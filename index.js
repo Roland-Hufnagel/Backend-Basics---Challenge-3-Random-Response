@@ -1,3 +1,5 @@
-// import { server } from "./server.js";
+import { server } from "./server.js";
 
-// server.listen(…
+server.listen(8003, () => {
+  console.log("Server started at http://localhost:8003");
+});
